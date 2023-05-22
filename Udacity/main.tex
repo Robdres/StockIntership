@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{listings}
+\newcommand{\ra}{$\longrightarrow$}
+\setlength{\parindent}{0pt}
+\begin{document}
+\section{Machine Learning} % (fold)
+\label{sec:Machine Learning}
+Machine learning is a type of traning that the computer follows by example by a
+recursive process of looking for new examples.
+\subsubsection{Supervised Classification } % (fold)
+\label{ssub:Supervised Classification }
+Process where tags and labels are given, mayority oof the process is data
+processing.
+
+FEATURES $\longrightarrow$ Attributes or characteristics for classification\\
+LABELS $\longrightarrow$ Categories
+
+\subsubsection{Naive Bayes}
+% subsubsection subsubsection name (end)
+
+
+Prior \ra Probability of Cancer $\longrightarrow$ P(C) = 0.01 
+
+TEST results probabilities  
+
+SENSITIVITY \ra True positivites \ra P(p) = 0.9
+
+SPECIFICITY \ra True negatives \ra P(!p) = 0.9
+
+\vspace{1cm}
+\textbf{Bayes Rule}
+
+P of cancer with a positive result
+
+$$P(pos,C) = P(C) \times P(pos|C) = 0.9*0.01 =0.009$$
+
+$$P(C|pos) = \frac{P(C)P(pos|C)}{P(pos)}$$
+% section section name (end)
+Called Naive because is just based on an evidence that does
+not consider order or motive
+\begin{table}[h]
+\begin{center}
+  \begin{tabular}{c|c}
+    Strengs & Weakness \\
+            \hline
+            & Order\\
+            & Motive ("Chicago Bulls")
+
+  \end{tabular}
+\end{center}
+\end{table}
+
+\section{SVM (Support Vector Machines)}
+Creates a line that maximizes the margin \\
+MARGIN \ra Maximizes the distance between the closests
+observations to the hyperplane
+points 
+
+
+\end{document}
